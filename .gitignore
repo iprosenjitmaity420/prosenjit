@@ -1,5 +1,8 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+var col = db.getSisterDB("shop").products;
+col.insert({
+  , _id: "111445GB3"
+  , name: "Simsong Mobile"
+  , description: "Awesome new 70G Phone"
+  , quantity: 99
+  , price: 1000
+});
